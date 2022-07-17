@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  width:auto;
+  margin: 0;
+  /* overflow: hidden; */
+
+}
+
+.banner{
+  background-size: 100% 800px;
+  background-image:url(helping.banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  font-size: 20px;
+  overflow: hidden;
+}
+p{
+  padding-top: 100px;
+  text-align: center;
+  color: rgb(222, 33, 33);
+
+}
+h2{
+  text-align: center;
+  color: white;
+}
+span{
+  color: red;
+  font-weight: bold;
+
+}
+button{
+  padding:10px 20px;
+  background-color: crimson;
+  color: white;
+  border-radius: 3px;
+  margin-left:45%;
+}
+h3{
+  text-align: center;
+  color: red;
+  font-size: 24px;
+  margin-top: 40px;
+
+}
+second-part{
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 0;
+}
+.balance{
+  display: flex;
+  align-items: center;
+  margin-left: 450px;
+  margin-top: 0;
+}
+.amount{
+  padding:40px;
+  border: 3px solid rgb(72, 211, 72);
+  color: black;
+  margin-left: 40px;
+}
+.horizontal{
+  border-bottom: 1px dashed black 0.3;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h4{
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.main{
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+.food,.shelter,.education{
+ width: 200px;
+ height: 200px;
+ color: black;
+ border: 3px solid red;
+ padding-right: 40px;
+ margin-left: 190px;
+ text-align: center;
+}
+.fa-bowl-rice{
+font-size: 40px;
+}
+#meal{
+  background-color: aquamarine;
+}
+#home{
+  background-color: bisque;
+}
+#edu{
+  background-color: cornflowerblue;
+}
+h5{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.box-text{
+  padding-top: 15px;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+}
