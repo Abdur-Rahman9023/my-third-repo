@@ -52,6 +52,7 @@ second-part{
   text-align: center;
   margin-top: 20px;
   padding-top: 0;
+  
 }
 .balance{
   display: flex;
@@ -64,11 +65,14 @@ second-part{
   border: 3px solid rgb(72, 211, 72);
   color: black;
   margin-left: 40px;
+  background-color:white;
+  color: tomato;
 }
-.horizontal{
-  border-bottom: 1px dashed black 0.3;
-  margin-left: 20px;
-  margin-right: 20px;
+.other-amount{
+  border-bottom: 1px dashed black o.3;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 10px;
 }
 h4{
   margin-top: 20px;
@@ -82,6 +86,7 @@ h4{
   display: flex;
   align-items: center;
   padding-right: 30px;
+  background-color: aliceblue;
 }
 .food,.shelter,.education{
  width: 200px;
@@ -91,9 +96,14 @@ h4{
  padding-right: 40px;
  margin-left: 190px;
  text-align: center;
+ 
 }
 .fa-bowl-rice{
 font-size: 40px;
+text-align: center;
+}
+.fa-book-blank{
+  font-size: 40px;
 }
 #meal{
   background-color: aquamarine;
@@ -114,4 +124,30 @@ h5{
   text-align: center;
   font-size: 16px;
   color: black;
+}
+.section-four{
+width: 400px;
+height: 180px;
+border: 3px solid pink;
+background-color: ghostwhite;
+text-align: center;
+margin-left: 38%;
+margin-top: 20px;
+}
+h6{
+  font-size: 20px;
+  color: green;
+
+}
+.form-section{
+
+}
+.form-data{
+  text-align: center;
+}
+input{
+  width:300px;
+  height: 15px;
+  color: green;
+  
 }
