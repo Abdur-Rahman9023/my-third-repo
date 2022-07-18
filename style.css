@@ -46,13 +46,10 @@ h3{
   color: red;
   font-size: 24px;
   margin-top: 40px;
-
 }
 second-part{
   text-align: center;
-  margin-top: 20px;
-  padding-top: 0;
-  
+  margin-top: 5px;
 }
 .balance{
   display: flex;
@@ -98,8 +95,8 @@ h4{
  text-align: center;
  
 }
-.fa-bowl-rice{
-font-size: 40px;
+.fa-bowl-rice,.fa-house{
+font-size: 35px;
 text-align: center;
 }
 .fa-book-blank{
@@ -125,6 +122,47 @@ h5{
   font-size: 16px;
   color: black;
 }
+.event-text{
+  margin-top: 5px;
+  color:black;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.event-date{
+  border:2px solid green;
+  background-color: rgb(245, 243, 243);
+  width:50%;
+  height:380px;
+  text-align: center;
+  margin-left: 25%;
+}
+.left-div{
+  display:flex;
+  width: 50%;
+}
+.day,.hour,.miniute,.sec{
+  width:100px;
+  height: 80px;
+  border: 3px solid rgb(0, 106, 255);
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px rgb(0, 170, 255);
+  margin-left:115px;
+  font-size: bold;
+  text-align: center;
+  font-style: italic;
+}
+span{
+  color: red;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#foodimg{
+  height: 380px;
+  width:50%;
+
+}
+
 .section-four{
 width: 400px;
 height: 180px;
@@ -137,11 +175,8 @@ margin-top: 20px;
 h6{
   font-size: 20px;
   color: green;
-
 }
-.form-section{
 
-}
 .form-data{
   text-align: center;
 }
@@ -150,4 +185,15 @@ input{
   height: 15px;
   color: green;
   
+}
+footer{
+  background-color: black;
+  width:100%;
+  height: 200px;
+  text-align: center;
+}
+.footer-text{
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 0px;
 }
