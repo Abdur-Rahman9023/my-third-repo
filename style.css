@@ -3,13 +3,11 @@
   padding: 0;
 }
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto',sans-serif;
   width:auto;
   margin: 0;
-  /* overflow: hidden; */
-
+  /*overflow: hidden;*/
 }
-
 .banner{
   background-size: 100% 800px;
   background-image:url(helping.banner.jpg);
@@ -23,7 +21,6 @@ p{
   padding-top: 100px;
   text-align: center;
   color: rgb(222, 33, 33);
-
 }
 h2{
   text-align: center;
@@ -32,7 +29,6 @@ h2{
 span{
   color: red;
   font-weight: bold;
-
 }
 button{
   padding:10px 20px;
@@ -99,8 +95,9 @@ h4{
 font-size: 35px;
 text-align: center;
 }
-.fa-book-blank{
-  font-size: 40px;
+.fa-book-open-reader{
+  font-size: 35px;
+  text-align: center;
 }
 #meal{
   background-color: aquamarine;
